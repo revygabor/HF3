@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
-#TODO:earlystopping, vagy mas callback
 
 def create_and_train_model(input_shape, x, y, model_name):
     model = Sequential()
